@@ -1,5 +1,3 @@
- # for both .env.example is provided
-
 # practical-backend
  
  # To install Node_modules use Below Command
@@ -21,15 +19,3 @@ npm run dev
 3)user 2 :-
       userName: "user_2",
       password: "password",
-
-# practical-frontend
- 
- # To install Node_modules use Below Command
- npm i
-
-# To Convert Ts code in to JS code use 
-npm build and after  then npm start
-
-# To run the project use below command
-npm run dev
- 

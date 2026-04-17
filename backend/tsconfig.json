@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "#Node": ["./Src/Boot/Node.ts"],
+      "#Library/*": ["./Src/Library/*.ts"],
+      "#HttpResponse/*": ["./Src/HttpResponse/*.ts"],
+      "#Utils/*": ["./Src/Utils/*.ts"],
+      "#Common/*": ["./Src/Common/*.ts"],
+      "#Modules/*": ["./Src/Modules/*"],
+      "#Types/*": ["./Src/Types/*.ts"],
+      "#Middleware/*": ["./Src/Middleware/*.ts"]
+    }
+  },
+  "include": ["Src/**/*"]
+}
